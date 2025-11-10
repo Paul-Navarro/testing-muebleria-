@@ -1,0 +1,41 @@
+# Maven/Java
+target/
+*.iml
+*.class
+*.log
+*.jar
+*.war
+*.ear
+
+# IDEs
+.idea/
+.vscode/
+*.swp
+.project
+.settings/
+.classpath
+
+# Node/Front
+front/node_modules/
+front/build/
+front/.next/
+npm-debug.log*
+yarn-error.log*
+
+# Docker/volúmenes locales
+pgdata/
+backups/*.sql
+backups/*.dump
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Credenciales y env (no subir secretos)
+*.env
+.env.*
+application-*.yml
+application-*.properties
+*.env
+.env
+.env.*
